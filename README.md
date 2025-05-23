@@ -12,38 +12,38 @@ The application has **adaptive design** for mobile phones.
 
 ## Environment
 
-Flutter: 3.29.3
-Dart: 3.7.2
-NDK: 27.0.12077973
-minSdk: flutter.minSdkVersion
-targetSdk: flutter.targetSdkVersion
+- Flutter: 3.29.3
+- Dart: 3.7.2
+- NDK: 27.0.12077973
+- minSdk: flutter.minSdkVersion
+- targetSdk: flutter.targetSdkVersion
 
 ---
 
 ## Used dependencies
 
-smooth_page_indicator: ^1.2.1
-animations: ^2.0.11
-flutter_custom_clippers: ^2.1.0
-flutter_svg: ^2.1.0
-provider: ^6.1.5
-url_launcher: ^6.3.1
-flutter_launcher_icons: ^0.14.3
+- smooth_page_indicator: ^1.2.1
+- animations: ^2.0.11
+- flutter_custom_clippers: ^2.1.0
+- flutter_svg: ^2.1.0
+- provider: ^6.1.5
+- url_launcher: ^6.3.1
+- flutter_launcher_icons: ^0.14.3
 
 ---
 
 ## Directory Structure
-
+```
 lib/
-├── assets/ # Contains image and icon assets
-├── pages/ # Onboarding pages layouts and logic
-├── providers/ # Contains Provider for user English level
-├── widgets/ # Reusable widgets for onboarding
+├── assets/
+├── pages/
+├── providers/
+├── widgets/
 ├── onboarding/
-│ ├── navigator.dart # Main slider view for onboarding
-│ └── view.dart # Export file for all pages
-├── main.dart # App entry point with theming
-
+│ ├── navigator.dart
+│ ├── view.dart
+├── main.dart
+```
 ---
 
 ## Directory Description
