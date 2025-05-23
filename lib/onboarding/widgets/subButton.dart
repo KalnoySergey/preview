@@ -6,7 +6,7 @@ class SubBtn extends StatelessWidget {
   final String text;
   final TextStyle? style;
 
-  const SubBtn({Key? key, required this.url, this.text = 'Subscribe', this.style}) : super(key: key);
+  const SubBtn({super.key, required this.url, this.text = 'Subscribe', this.style});
 
   Future<void> _launchUrl() async {
     final Uri uri = Uri.parse(url);
